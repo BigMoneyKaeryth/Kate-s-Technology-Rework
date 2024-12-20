@@ -1,0 +1,10 @@
+﻿pmg_university_tuition = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_private_tuition
+		pm_student_loans
+		pm_free_tuition
+	}
+}

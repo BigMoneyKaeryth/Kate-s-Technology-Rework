@@ -1,0 +1,140 @@
+﻿pm_scholastic_education = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 1
+			country_tech_spread_add = 0.25
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 1500
+			building_employment_laborers_add = 1500
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.1
+			state_education_access_add = 0.0025
+		}	
+	}
+}
+
+pm_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = {
+		dialectics
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 1.5
+			country_tech_spread_add = 0.375
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 1750
+			building_employment_laborers_add = 1250
+		}				
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.15
+			state_education_access_add = 0.00375
+		}	
+	}
+}
+
+pm_analytical_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		analytical_philosophy
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+			country_tech_spread_add = 0.5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_paper_add = 15
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_laborers_add = 1000
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.2
+			state_education_access_add = 0.005
+		}	
+	}
+}	
+
+pm_private_tuition = {
+	texture = "gfx/interface/icons/production_method_icons/private_tuition.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_education_access_wealth_add = 0.00025
+		}
+	}
+
+	is_default = yes
+
+	unlocking_laws = {
+		law_a_private_tuition
+	}
+}
+
+pm_student_loans = {
+	texture = "gfx/interface/icons/production_method_icons/student_loans.dds"
+
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_education_access_wealth_add = 0.00012
+			state_education_access_add = 0.0025
+		}
+	}
+
+	unlocking_laws = {
+		law_b_student_loans
+	}
+}
+
+pm_free_tuition = {
+	texture = "gfx/interface/icons/production_method_icons/free_tuition.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_education_access_add = 0.005
+		}
+	}
+
+	unlocking_laws = {
+		law_c_free_tuition
+	}
+}

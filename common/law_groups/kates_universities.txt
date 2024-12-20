@@ -1,0 +1,6 @@
+lawgroup_tuition = {
+	law_group_category = human_rights
+
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 0.25
+}

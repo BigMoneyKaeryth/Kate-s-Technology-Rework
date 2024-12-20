@@ -1,0 +1,2 @@
+concept_country_tech_research_speed_mult = {}
+concept_annual_innovation_growth = {}

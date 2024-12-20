@@ -1,0 +1,4 @@
+﻿NAI = {
+	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.75 # If innovation production compared to cap is worse than this, AI considers it very important to improve
+	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 0.99 # If innovation production compared to cap is worse than this, AI considers it important to improve
+}

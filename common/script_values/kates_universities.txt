@@ -1,0 +1,9 @@
+kates_literacy_speed_modifier = {
+	add = literacy_rate
+	divide = 2
+	multiply = 100
+}
+
+kates_literacy_step = {
+	add = 1.25
+}

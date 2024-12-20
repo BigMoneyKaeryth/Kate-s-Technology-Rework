@@ -1,0 +1,13 @@
+{
+    "game_custom_data": {
+        "multiplayer_synchronized": true
+    },
+    "id": "",
+    "name": "Kate's Technology Rework",
+    "picture": "thumbnail.png",
+    "relationships": [],
+    "short_description": "Changes the effects of Literacy Rate and Universities",
+    "supported_game_version": "1.8.*",
+    "tags": [],
+    "version": "1.0.1"
+}

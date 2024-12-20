@@ -1,0 +1,5 @@
+﻿kate_innovation_annual_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_weekly_innovation_max_add = 1
+	country_tech_spread_add = 0.5
+}

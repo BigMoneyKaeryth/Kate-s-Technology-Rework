@@ -1,0 +1,41 @@
+﻿set_innovation_cap = {
+	if = {
+		limit = {
+			OR = {
+				year > 1836
+				game_date = 1836.12.31
+			}
+			NOT = {
+				has_global_variable = innovation_scaling
+			}
+		}
+		set_global_variable = {
+			name = innovation_scaling
+		}
+		set_variable = {
+			name = year_value
+			value = year
+		}
+		change_variable = {
+			name = year_value
+			subtract = 1835
+		}
+		change_variable = {
+			name = year_value
+			multiply = kates_literacy_step
+		}
+		set_global_variable = {
+			name = year_value
+			value = var:year_value
+		}
+		every_country = {
+			remove_modifier = kate_innovation_annual_modifier
+			add_modifier = {
+				name = kate_innovation_annual_modifier
+				multiplier = global_var:year_value
+			}
+		}
+		remove_global_variable = innovation_scaling
+	}
+}
+
